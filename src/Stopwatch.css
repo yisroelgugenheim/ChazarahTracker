@@ -1,0 +1,65 @@
+.stopwatch-container {
+  bottom: 20vmin;
+  position: relative;
+  width: 150vmin;
+  height: 150vmin;
+  background-image: url('../assets/watch-placeholder.JPG');
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stopwatch-display {
+  position: absolute;
+  background-color: rgb(19, 19, 19);
+  /* color: #3f927b; */
+  color: rgba(250, 250, 250, 0.6);
+  padding: 0 2%;
+  border-radius: 15px;
+  font-size: 85px;
+  font-family: 'Courier New', monospace;
+  transform: scale(0.8, 1);
+  text-align: center;
+  cursor: pointer;
+}
+
+  @media (max-width: 600px) {
+    .stopwatch-container {
+     background-size: 50vmin;
+     bottom: 0;
+    }
+    .stopwatch-display {
+      font-size: 9vh;
+    }
+  }
+
+  .app {
+    background-color: rgb(237, 240, 243);
+
+
+  }
+
+  .button-play-pause {
+    right: 25%;
+  }
+  .button-start-over {
+    right: 21%;
+  }
+  .button-submit {
+    right: 23%;
+  }
+
+   @media (max-width: 600px) {
+    .button-play-pause {
+      right: 4%;
+    }
+    .button-start-over {
+      right: 0%;
+    }
+    .button-submit {
+      right: 2%;
+    }
+
+   }

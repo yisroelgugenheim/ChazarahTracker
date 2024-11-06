@@ -1,0 +1,29 @@
+Add toggle password visibility.
+
+add links between admin panel and app only for admin.
+
+admin panel sorely lacks proper layout and styling.
+
+make it more personal by showing user a logged in icon in the top corner with their name, and adding their name in the post message as well.
+
+issue: minutes tracker main container shifts up and down upon changing the height of the screen.
+
+Needs explanation: 
+Without an if statement, my function ran before accessing the id.
+Wrapping my function in an if (id), made the code not run. 
+However, adding an if (!id) return, before the function, made the code run after it got the id.
+
+- Add posting message?
+
+Why I'm only returning the current quarter's minutes:
+- I'm (the user) posting minutes every week. 
+- obviously, I'm supposed to be keeping track weekly. 
+- The need for checking if under minutes/how many minutes under
+  is a last resort in case user forgot. 
+- So if I forget my minutes from a previous week, I shoud definitely check the quarter 
+  minutes, and then I'll know how many minutes I'm under anyway.
+
+
+- Fix error message in login!!!
+
+
